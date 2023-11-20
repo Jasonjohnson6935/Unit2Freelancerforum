@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Freelancers List</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h2>Freelancers List</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Occupation</th>
+            <th>Starting Price</th>
+        </tr>
+    </thead>
+    <tbody>
+      <!-- Table body content will be dynamically updated by JavaScript -->
+    </tbody>
+  </table>
+
+  <p>Average Starting Price: <span id="averagePrice">$40.00</span></p>
+
+  <!-- Include the JavaScript file -->
+  <script src="index.js"></script>
+
 </body>
 </html>
