@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
   updateFreelancersList();
 });
 
-// Example: Add a new freelancer every 5 seconds
+// Add a new freelancer every 5 seconds
 setInterval(() => {
   const randomIndex = Math.floor(Math.random() * newFreelancers.length);
   const newFreelancer = newFreelancers[randomIndex];
